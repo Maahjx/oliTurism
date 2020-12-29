@@ -1,0 +1,493 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#192A56;
+    height: 75px;
+}
+
+li{
+    float: right;
+    font-size:20px;
+}
+
+li a{
+    display:block;
+    color: white;
+    text-align:center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+.hover:hover{
+    background-color: #FFC312;
+    color: black;
+    border-radius: 10px;
+}
+
+.logo{
+    float:left;
+    font-size: 28px;
+}
+
+.logo a:hover{
+    background-color: transparent;
+    color:white;
+}
+
+.section-one{
+    background-image:url("../images/sectionOne.jpg");
+    background-repeat:no-repeat;
+    width: 1920px;
+    height: 768px;
+}
+.container{
+    text-align: center;
+    padding: 20%;
+}
+.jumbotron{
+    margin-top: 20px;
+}
+
+.tittle-home{
+    font-size:48px;
+    color: white;
+}
+
+.span-yellow{
+    color:  #FFC312;
+}
+
+.input-search{
+    width: 400px;
+    height: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    color:black;
+    border-radius:10px;
+    background-color:rgba(255,255,255,0.5);
+}
+.btn-more{
+    background-color: white;
+    border: none;
+    width: 155px;
+    height: 36px;
+    color: black;
+    border-radius: 10px;
+}
+
+.btn-more:hover{
+    cursor: pointer;
+}
+
+.btn-more a{
+    text-decoration:none;
+    color:black;
+    font-size:15px;
+}
+
+.section-two{
+    width: 100%;
+    height: 700px;
+}
+
+.h1-title{
+    font-size:40px;
+    text-align:center;
+    margin-top:4%;
+}
+
+.column{
+    float: left;
+    width:30%;
+    margin-top:100px;
+    margin-left: 33px;
+    padding:10px;
+    height:300px;
+}
+
+.row:after{
+    content: "";
+    display: grid;
+    clear: both;
+    width: 100%;
+}
+
+.img-card{
+    width:100%;
+    border-radius:10px;
+    height: 300px;
+}
+
+.card-image{
+    box-shadow: 0,4px,8px rgba(0, 0, 0,0.5);
+    background-color:white;
+    transition: 0.3s;
+    width:100%;
+    height:300px;
+    border-radius:10px;
+}
+
+/* FIM DA SESSAO 1 INICIO DA SESSAO 2*/
+
+.section-two{
+    width:100%;
+    height:700px;
+}
+
+.h1-title{
+    font-size:40px;
+    text-align:center;
+    margin-top:4%;
+}
+
+.column{
+    float:left;
+    width:30%;
+    margin-top:100px;
+    margin-left:33px;
+    padding:10px;
+    height:300px;
+}
+
+.row:after{
+    content:"";
+    display:grid;
+    clear:both;
+    width:100%;
+}
+
+.img-card{
+    width:100%;
+    border-radius:10px;
+}
+
+.card-image{
+    box-shadow: 0 4px 8px 0 rgba( 0, 0, 0 , 0.5);
+    background-color: white;
+    transition: 0.3s;
+    width:100%;
+    height:300px;
+    border-radius:10px;
+}
+
+.card-text{
+    background-color:white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+    width: 400px;
+    height: 192px;
+    align-items:center;
+    margin-top:-150px;
+    margin-left:70px;
+    border-radius:15px;
+    padding:10px;
+}
+
+.container-card{
+    padding: 2px 16px;
+}
+
+.h1-card-title{
+    font-weight: 600;
+    margin-top:30px;
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.tuor{
+    font-size: 20px;
+}
+
+.location{
+    margin-top: 10px;
+}
+
+.itens{
+    margin-left: 4px;
+    margin-top: 40px;
+}
+
+.span-item{
+    color:#FF0606;
+}
+
+/* FIM DA SESSAO 2 INICIO DA SESSAO 3*/
+
+.section-tree{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.7)), url("../images/sectionTree.jpg");
+    width: 100%;
+    height: 800px;
+}
+
+.h1-feedback{
+    font-size:40px;
+    text-align: center;
+    color: white;
+    margin-top:60px;
+}
+
+.card-feedback{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color:white;
+    transition:0.3s;
+    width:100%;
+    height:385px;
+    border-radius:10px;
+}
+
+.text-justify{
+    text-align: justify;
+    font-size:20px;
+}
+
+.mb-1{
+    margin-bottom: 20px;
+}
+
+.mb-2{
+    margin-bottom: 40px;
+}
+
+.mb-3{
+    margin-bottom: 60px;
+}
+.mb-4{
+    margin-bottom: 80px;
+}
+.mb-5{
+    margin-bottom: 100px;
+}
+
+.card-feedback-text{
+    padding: 10px 20px;
+}
+
+.profile{
+    width:71px;
+    height:71px;
+    border-radius:360px;
+}
+
+.text-footer-left{
+    float: left;
+}
+
+.name-profile{
+    margin-left:20px;
+    margin-top:-1000px;
+}
+
+.text-dark{
+    color: black;
+}
+
+.footer{
+    background-color: white;
+}
+
+/* FIM DA SESSAO 3 E INICIO DA TELA ENTRAR*/
+
+.section-entrar{
+    background-image:url("../images/sectionEntrar.jpg");
+    background-repeat:no-repeat;
+    width: 1920px;
+    height: 1080px;
+}
+
+.row-entrar{
+    width: 461px;
+    height: 643px;
+    background-color:rgba(25, 42, 86, 0.7);
+    border-radius:10px;
+    align-items: center;
+}
+    
+.card-entrar{
+    align-items: center;
+    margin-top: 100px;
+    background-color:rgba(25, 42, 86, 0.5);
+    border-radius: 10px;
+    width: 461px;
+    height: 643px;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-logo{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sub-titulo{
+    color: white;
+    font-size: 40px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.titulo-input{
+    color: white;
+    font-size: 14px;
+    margin-bottom: -20px;
+    margin-left: 25px;
+}
+
+.leftlogin{
+    text-align: left;
+    padding: 10px;
+}
+
+.span-end-left{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.span-end-right{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    margin-top: -10px;
+    margin-right: 30px;
+}
+
+.input-login-senha{
+    width: 401px;
+    height: 55px;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    border-style: none;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
+.botao-login{
+    width: 217px;
+    height: 45px;
+    font-size: 14px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    background-color: rgb(255, 195, 18);
+    margin-top: 20px;
+    align-items: center;
+}
+
+.form label{
+    padding: 20px;
+    text-align: left;
+    display: block;
+    margin-top: 25px;
+}
+
+/* FIM DA TELA ENTRAR E INICIO DA TELA CADASTRE-SE*/
+
+.titulo-logo-cadastro{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sub-titulo-cadastro{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.titulo-input-cadastro{
+    color: white;
+    font-size: 14px;
+    margin-bottom: -20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.input-login-senha-cadastro{
+    width: 401px;
+    height: 55px;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    border-style: none;
+    background-color: rgb(255, 255, 255, 0.4);
+    margin-top: -20px;
+}
+
+.span-end-left-cadastro{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.span-end-right-cadastro{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    margin-top: -10px;
+    margin-right: 50px;
+}
+
+.botao-login-cadastro{
+    width: 217px;
+    height: 45px;
+    font-size: 14px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    background-color: rgb(255, 195, 18);
+    margin-top: 10px;
+    align-items: center;
+}
+
+.card-entrar-cadastro{
+    align-items: center;
+    margin-top: 90px;
+    background-color:rgba(25, 42, 86, 0.5);
+    border-radius: 10px;
+    width: 461px;
+    height: 700px;
+}
+
+.card-text-hotel{
+    background-color:white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+    width: 400px;
+    height: 192px;
+    align-items:center;
+    margin-top:-150px;
+    margin-left:70px;
+    border-radius:15px;
+    padding:10px;
+    text-align: center;
+}
